@@ -3,5 +3,5 @@ pandas
 gunicorn
 joblib
 numpy
-PIL
+pillow
 plotly
