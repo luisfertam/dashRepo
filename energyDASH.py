@@ -118,6 +118,8 @@ monthconcat = pd.concat(cleanDFcountriesMonthly)
 
 # Crear la aplicación Dash
 app = dash.Dash(__name__)
+server = app.server
+
 app.title = "Energías Dashboard"
 
 ## tabs
